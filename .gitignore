@@ -1,0 +1,74 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Yarn v2+ (.yarn) - keep selected files
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.js
+.pnp.cjs
+
+# Build outputs
+/build/
+/dist/
+/out/
+/.parcel-cache/
+
+# Production
+/coverage/
+
+# Misc caches
+.cache/
+.cache-loader/
+.eslintcache
+
+# dotenv environment variables
+.env
+.env.*.local
+.env.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Testing
+/coverage/
+/.nyc_output/
+jest-results.json
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+*.tgz
+*.zip
+
+# Local instrumentation / profiler
+local-coverage/
+
+# Optional: ignore lockfiles if you prefer not committing them (uncomment if desired)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
