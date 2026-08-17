@@ -10,16 +10,16 @@ function Header(){
             <div>
                 <ul className=" list-none flex justify-center gap-5 text-gray-500 font-bold">
                     <li>
-                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/" className={({isActive}) => `${isActive ?  "text-orange-500" : "text-gray-500"}`}>Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/about">About</NavLink>
+                        <NavLink to="/about" className={({isActive}) => `${isActive ?  "text-orange-500" : "text-gray-500"}`}>About</NavLink>
                     </li>  
                     <li>
-                        <NavLink to="/contact-us">Contact Us</NavLink>
+                        <NavLink to="/contact-us" className={({isActive}) => `${isActive ?  "text-orange-500" : "text-gray-500"}`}>Contact Us</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/github">GitHub</NavLink>
+                        <NavLink to="/github" className={({isActive}) => `${isActive ?  "text-orange-500" : "text-gray-500"}`}>GitHub</NavLink>
                     </li>  
                 </ul>                               
                 
