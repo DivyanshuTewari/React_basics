@@ -7,6 +7,7 @@ import Home from './Components/Home.jsx'
 import About from './Components/About.jsx'
 import ContactUs from './Components/ContactUs.jsx'
 import User from './Components/User.jsx'
+import Github from './Components/Github.jsx'
 const router =createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App/>}>
@@ -14,6 +15,7 @@ const router =createBrowserRouter(
       <Route path="about" element={<About/>}/>
       <Route path="contact-us" element={<ContactUs/>}/>
       <Route path="user/:userId/xy/:sec" element={<User/>}/>
+      <Route path="github" element={<Github/>}/>
     </Route>
   )
 )
