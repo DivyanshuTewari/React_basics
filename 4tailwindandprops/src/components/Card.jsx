@@ -1,4 +1,4 @@
-function Card({username: name = "Tanuja" , btntxt : txt = "visit me"}) {
+function Card({username: name = "Divy" , btntxt : txt = "visit me"}) {
     console.log(name,txt)
     return (
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
